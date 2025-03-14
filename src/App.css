@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.overall{
+    min-height: 100vh;
+}
+
+.overall h1{
+    /* background-color: aquamarine; */
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overall form{
+    height: 50px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.overall form input{
+    padding: 10px;
+}
+
+.overall form button{
+    all: unset;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.overall .img{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.overall .img img{
+    width: 400px;
+    height: 400px;
+}
